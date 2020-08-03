@@ -55,6 +55,7 @@ class GameFragment : Fragment() {
 
         binding.correctButton.setOnClickListener { onCorrect() }
         binding.skipButton.setOnClickListener { onSkip() }
+        binding.endGameButton.setOnClickListener { onEndGame() }
         updateScoreText()
         updateWordText()
         return binding.root
@@ -74,6 +75,9 @@ class GameFragment : Fragment() {
         viewModel.onCorrect()
         updateScoreText()
         updateWordText()
+    }
+
+    private fun onEndGame() {
     }
 
 
