@@ -4,6 +4,7 @@ import android.util.Log
 import androidx.lifecycle.ViewModel
 
 class GameViewModel : ViewModel() {
+    private lateinit var viewModel: GameViewModel
     init {
         Log.i("GameViewModel", "GameViewModel created!")
     }
