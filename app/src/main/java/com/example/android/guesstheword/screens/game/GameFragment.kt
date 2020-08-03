@@ -39,7 +39,7 @@ class GameFragment : Fragment() {
     private var score = 0
 
     // The list of words - the front of the list is the next word to guess
-    private lateinit var viewModel: GameViewModel
+    private lateinit var wordList: MutableList<String>
 
     private lateinit var binding: GameFragmentBinding
 
